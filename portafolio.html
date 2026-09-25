@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portafolio | Julio Gabriel Torres Argeñal</title>
+    <link rel="stylesheet" href="portafolios.css">
+</head>
+
+<body>
+    <header class="navbar">
+        <div class="logo">Portafolio Personal</div>
+        <nav>
+            <ul class="nav-links">
+                <li><a href="#inicio">Inicio</a></li>
+                <li><a href="#habilidades">Habilidades</a></li>
+                <li><a href="#proyectos">Proyectos</a></li>
+                <li><a href="#contacto">Contacto</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+
+
+        <section id="inicio" class="hero-section">
+            <div class="hero-content">
+                <img src="IMG/foto de perfil.JPG" alt="Foto de perfil de Julio Gabriel" class="profile-pic">
+                <h1>Julio Gabriel Torres Argeñal</h1>
+                <h2>Estudiante de Ingeniería en Sistemas y Ciencias de la Computación</h2>
+                <p>Desarrollador enfocado en la creación de aplicaciones de escritorio en C# con arquitectura multicapa,
+                    diseño de bases de datos robustas y configuración de redes. Apasionado por la optimización de
+                    procesos tecnológicos y el aprendizaje continuo.</p>
+            </div>
+        </section>
+
+
+        <section id="habilidades" class="skills-section">
+            <h2>Habilidades Técnicas</h2>
+            <div class="skills-container">
+                <div class="skill-card">Desarrollo Frontend (HTML5, CSS Flexbox, JS Vanilla)</div>
+                <div class="skill-card">C# & Windows Forms</div>
+                <div class="skill-card">Microsoft SQL Server (T-SQL, Data Marts)</div>
+                <div class="skill-card">Redes Cisco (Packet Tracer, VLANs)</div>
+            </div>
+        </section>
+
+
+        <section id="proyectos" class="projects-section">
+            <h2>Proyectos Destacados</h2>
+            <div class="projects-container">
+                <div class="project-card">
+                    <h3>Proyecto Final Biblioteca (InkSpaceDB)</h3>
+                    <p>Sistema de gestión bibliotecaria desarrollado en C# con Windows Forms. Incluye operaciones CRUD,
+                        registro de usuarios y reservas con conexión directa a base de datos SQL Server.</p>
+                </div>
+                <div class="project-card">
+                    <h3>Sistema G_aerolineas</h3>
+                    <p>Arquitectura de base de datos relacional para una aerolínea. Incluye diseño en 3NF, creación de
+                        un Data Mart y modelado multidimensional mediante SQL scripts.</p>
+                </div>
+            </div>
+        </section>
+
+
+
+        <section id="contacto" class="contact-section">
+            <h2>Contáctame</h2>
+            <form id="contactForm" class="contact-form">
+                <div class="form-group">
+                    <label for="nombre">Nombre Completo</label>
+                    <input type="text" id="nombre" name="nombre">
+                </div>
+                <div class="form-group">
+                    <label for="correo">Correo Electrónico</label>
+                    <input type="email" id="correo" name="correo">
+                </div>
+                <div class="form-group">
+                    <label for="mensaje">Mensaje</label>
+                    <textarea id="mensaje" name="mensaje" rows="4"></textarea>
+                </div>
+                <button type="submit" class="submit-btn">Enviar Mensaje</button>
+                <div id="formMessage" class="form-message"></div>
+            </form>
+
+            <div class="social-links">
+                <p><strong>Repositorio:</strong> <a href="https://github.com/repos?q=owner%3A%40me" target="_blank">Enlace
+                        a GitHub</a></p>
+                <p><strong>Github pages:</strong> <a href="https://github.com/repos?q=owner%3A%40me" target="_blank">Enlace
+                        a GitHub pages</a></p>
+                
+                
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2026 Todos los derechos reservados.</p>
+    </footer>
+
+    <script src="portafolios.js"></script>
+</body>
+
+</html>
